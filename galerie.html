@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="html5lightbox/jquery.js"></script>
     <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/galerie.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,63 +18,66 @@
     </script>
     <title>Document</title>
 </head>
+
 <body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+                AOS.init();
+              </script>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
 
-
-
-
-        <div class="container">
-                <div class="logo"> 
-                    <img src="img/logo.png">
-                </div>
-                
-                <div class="menu">      
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Gallerie</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </div> 
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galerie.html">Gallerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="containerimg">
+            <div class="img-container">
+                <a href="img/galerie/1.jpg" class="html5lightbox"><img src="img/galerie/1.jpg "></img></a>
             </div>
 
+            <div class="img-container">
+                <a href="img/galerie/2.jpg" class="html5lightbox"> <img src="img/galerie/2.jpg"></img></a>
+            </div>
 
+            <div class="img-container">
+                <a href="img/galerie/3.jpg" class="html5lightbox"><img src="img/galerie/3.jpg"></img></a>
+            </div>
 
+            <div class="img-container">
+                <a href="img/galerie/4.jpg" class="html5lightbox"><img src="img/galerie/4.jpg"></img></a>
+            </div>
 
+            <div class="img-container">
+                <a href="img/galerie/5.jpg" class="html5lightbox"><img src="img/galerie/5.jpg"></img></a>
+            </div>
 
+            <div class="img-container">
+                <img src="img/galerie/1.jpg"></img>
+            </div>
 
-<div class="containerimg"> 
-    <div class="img-container">
-        <a href="img/galerie/1.jpg" class="html5lightbox"><img src="img/galerie/1.jpg "></img></a>
-    </div>
-
-    <div class="img-container">
-       <a href="img/galerie/2.jpg" class="html5lightbox"> <img src="img/galerie/2.jpg"></img></a>
-    </div>
-
-    <div class="img-container">
-        <a href="img/galerie/3.jpg" class="html5lightbox"><img src="img/galerie/3.jpg"></img></a>
-    </div>
-
-    <div class="img-container">
-        <a href="img/galerie/4.jpg" class="html5lightbox"><img src="img/galerie/4.jpg"></img></a>
-    </div>
-
-    <div class="img-container">
-        <a href="img/galerie/5.jpg" class="html5lightbox"><img  src="img/galerie/5.jpg"></img></a>
-    </div>
-
-    <div class="img-container" >
-        <img src="img/galerie/1.jpg" ></img>
-    </div>
-        
-    <div class="img-container">
-        <img src="img/galerie/1.jpg"></img>
-    </div>
-</div>
-
-
-
-
+            <div class="img-container">
+                <img src="img/galerie/1.jpg"></img>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="markbox"> 
+            <div class="mark" data-aos="flip-up"><img src="logos/AS.98.png"></div>
+            <div class="mark" data-aos="flip-up"><img src="logos/camper.png"></div>
+            <div class="mark" data-aos="flip-up" ><img src="logos/mjus.jpg"></div>
+            <div class="mark" data-aos="flip-up" ><img src="logos/softinos.png"></div>
+        </div>
+ 
+     </footer>
+ 
 </body>
+
 </html>

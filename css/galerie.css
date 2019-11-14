@@ -1,7 +1,9 @@
-.container{
+/* .container{
+    z-index: 9999;
+    padding-top:50px;
     width: 100%;
     height: 10%;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +12,7 @@
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 10px;
-}
+} */
 
 
 
@@ -41,7 +43,7 @@ ul{
 
 ul li{ 
     display: inline-block; 
-    margin: 2em 4em 2em 4em;
+    margin: 2em 4em 2em 4em
 }
     
 .logo img{  
@@ -55,21 +57,40 @@ ul li{
 /* gallery*/
 
 .containerimg{
-    display: grid;
+    padding: 5em 2em 1em 2em;
+    overflow: hidden; 
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:repeat(auto, 1fr);
-    grid-gap: 20px;
-    margin: 20px 20px 20px 20px;
-
-
+    grid-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*margin: 20px 20px 20px 20px;*/
 }
 
-html, body{
-    margin: 20px;
+html, body{margin: 0%;
+    padding: 0%;
     height: 100%;
 }
 
-.img-container img{
-    height: 600px;
+/* .img-container img{
+    display: block;
+    transition: transform .4s;   /* smoother zoom */
+    /*height: auto;
     object-fit: cover;
-   width: 100%;}
+   width: 100%;
+} */
+
+.img-container {
+    margin-bottom: 2em;
+    width: 30%;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+/*.img-container img:hover{
+    transform: scale(1.01);
+}*/
